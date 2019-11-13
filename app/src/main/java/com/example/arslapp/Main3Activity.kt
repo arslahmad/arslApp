@@ -20,3 +20,4 @@ class Main3Activity : AppCompatActivity() {
         Review.adapter=adapter
     }
 }
+//goto hell

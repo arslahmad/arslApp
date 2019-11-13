@@ -23,6 +23,10 @@ class Main2Activity : AppCompatActivity() {
             inten.putExtra(Intent.EXTRA_TEXT,message)
             inten.type="text/plain"
             startActivity(Intent.createChooser(inten,"select your app:"))
+            button3.setOnClickListener {
+                val inten=Intent(this,Main3Activity::class.java)
+                startActivity(inten)
+            }
         }
     }
 }

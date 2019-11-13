@@ -15,4 +15,8 @@
     android:text="@string/share"
     android:id="@+id/share"
     android:textSize="30sp"/>
+    <Button
+            android:text="godluck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/button3"/>
 </LinearLayout>
